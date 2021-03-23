@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      1454,         50]
-NotebookOptionsPosition[       954,         33]
-NotebookOutlinePosition[      1380,         49]
-CellTagsIndexPosition[      1337,         46]
+NotebookDataLength[      4497,        130]
+NotebookOptionsPosition[      3279,        102]
+NotebookOutlinePosition[      3701,        118]
+CellTagsIndexPosition[      3658,        115]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -28,11 +28,80 @@ Cell["Projekt za Ra\[CHacek]unalni\[SHacek]ka orodja v matematiki", "Title",
 Cell["23.3.2021", "Text",
  CellChangeTimes->{{3.825495631725214*^9, 
   3.8254956396993093`*^9}},ExpressionUUID->"276b24d9-4247-47df-a2ac-\
-c008f38b5223"]
+c008f38b5223"],
+
+Cell[CellGroupData[{
+
+Cell["Podatki, ki jih bomo uporabili", "Section",
+ CellChangeTimes->{{3.8254981832689996`*^9, 
+  3.825498189137251*^9}},ExpressionUUID->"4071e198-12d7-43bf-9d3f-\
+e9f2406c8ef8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"ResourceData", "[", 
+  RowBox[{
+  "ResourceObject", "[", 
+   "\"\<Coronavirus COVID-19 Pandemic Government Measures\>\"", "]"}], 
+  "]"}]], "Input",
+ CellChangeTimes->{{3.8254981925760527`*^9, 3.825498255817441*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"8ecd6f4a-2f03-4982-beab-6ebc3cafa2df"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "CloudConnect", "creds", "\"Incorrect username or password.\"", 2, 1, 1, 
+   29181161704632678283, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.825498292312358*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"6abc8e07-77c6-44d7-bd53-3fd223821137"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "CloudConnect", "notauth", 
+   "\"Unable to authenticate with Wolfram Cloud server. Please try \
+authenticating again.\"", 2, 1, 2, 29181161704632678283, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.825498292404654*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"edfc1fd0-3364-4ce9-a991-061174e0b360"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ResourceObject", "rscloudc", 
+   "\"You must connect to the Wolfram cloud to use the resource. Please use \
+CloudConnect to establish a connection with the Wolfram cloud.\"", 2, 1, 3, 
+   29181161704632678283, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.825498292511675*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"d4aee38a-f928-4a07-9673-a40017e00ac1"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "ResourceObject", "notfname", 
+   "\"The ResourceObject \\!\\(\\*RowBox[{\\\"\\\\\\\"Coronavirus COVID-19 \
+Pandemic Government Measures\\\\\\\"\\\"}]\\) could not be found.\"", 2, 1, 4,
+    29181161704632678283, "Local"},
+  "MessageTemplate"]], "Message", "MSG",
+ CellChangeTimes->{3.825498292524678*^9},
+ CellLabel->
+  "During evaluation of \
+In[1]:=",ExpressionUUID->"e05a24ea-5af4-4c38-b4ba-d12e13a7e514"],
+
+Cell[BoxData["$Failed"], "Output",
+ CellChangeTimes->{3.8254982927477283`*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"c0fa2648-657f-4a5c-9815-03113efc6811"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 },
 WindowSize->{571.8, 524.4},
-WindowMargins->{{Automatic, -17.399999999999864`}, {Automatic, 15.6}},
+WindowMargins->{{Automatic, 160.20000000000005`}, {Automatic, 3}},
 FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"1c260e17-a7c0-43f7-83ef-5579a0c21c1c"
@@ -50,11 +119,20 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 202, 3, 158, "Title",ExpressionUUID->"3994ac74-dfdb-434b-8021-567fa7968b86"],
-Cell[785, 27, 153, 3, 35, "Text",ExpressionUUID->"276b24d9-4247-47df-a2ac-c008f38b5223"]
+Cell[785, 27, 153, 3, 35, "Text",ExpressionUUID->"276b24d9-4247-47df-a2ac-c008f38b5223"],
+Cell[CellGroupData[{
+Cell[963, 34, 177, 3, 67, "Section",ExpressionUUID->"4071e198-12d7-43bf-9d3f-e9f2406c8ef8"],
+Cell[CellGroupData[{
+Cell[1165, 41, 318, 7, 68, "Input",ExpressionUUID->"8ecd6f4a-2f03-4982-beab-6ebc3cafa2df"],
+Cell[1486, 50, 326, 8, 24, "Message",ExpressionUUID->"6abc8e07-77c6-44d7-bd53-3fd223821137"],
+Cell[1815, 60, 381, 9, 43, "Message",ExpressionUUID->"edfc1fd0-3364-4ce9-a991-061174e0b360"],
+Cell[2199, 71, 438, 10, 43, "Message",ExpressionUUID->"d4aee38a-f928-4a07-9673-a40017e00ac1"],
+Cell[2640, 83, 440, 10, 43, "Message",ExpressionUUID->"e05a24ea-5af4-4c38-b4ba-d12e13a7e514"],
+Cell[3083, 95, 156, 2, 32, "Output",ExpressionUUID->"c0fa2648-657f-4a5c-9815-03113efc6811"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
