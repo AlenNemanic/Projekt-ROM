@@ -6,8 +6,7 @@ Pri projektu bom uporabil racunalniski program *Mathematica*.
 ## Načrt Projekta
 1. Pridobil bom podatke o preteklosti za cel svet in pa za Slovenijo.
 2. Analiziral te podatke, jih predstavil na grafu in obrazložil.
-3. Prikazal globalne temperature na zemlji s funkcijo GeoDensityPlot.
-4. Poskušal ugotoviti kaj se lahko zgodi v prihodnosti, če bomo nadaljevali na isti način kot sedaj.
+3. Poskušal ugotoviti kaj se lahko zgodi v prihodnosti, če bomo nadaljevali na isti način kot sedaj.
 
 ### Posnetek predstavitve
 
