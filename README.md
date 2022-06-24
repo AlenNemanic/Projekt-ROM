@@ -9,4 +9,13 @@ Pri projektu bom uporabil racunalniski program *Mathematica*.
 3. Prikazal globalne temperature na zemlji s funkcijo GeoDensityPlot.
 4. Poskušal ugotoviti kaj se lahko zgodi v prihodnosti, če bomo nadaljevali na isti način kot sedaj.
 
+### Posnetek predstavitve
+
+https://youtu.be/UyQZne_GkrI
+
+### Povezava do aplikacije
+
+https://www.wolframcloud.com/obj/9b724fe5-1ff0-44c3-ae8e-759ea7260e87
+
+
 Pripravil: *Alen Nemanič*
